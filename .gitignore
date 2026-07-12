@@ -1,0 +1,63 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data & Uploads
+data/uploads/
+data/evaluations/
+data/history/
+data/evaluations.db
+
+# Logs
+logs/*.log
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Distribution
+*.egg
+*.whl
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Docs
+developer.md
+DEVELOPER.md
+exe.md
+
+# Claude Code
+.agents/
+.claude/
+
+# Output (generated)
+output/

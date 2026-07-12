@@ -1,0 +1,15 @@
+# Core
+streamlit
+python-dotenv
+
+# PDF Processing (preview only)
+PyPDF2
+pdf2image
+Pillow
+
+# LLM - direct HTTP API calls
+requests
+
+# Analytics & Charts
+plotly
+pandas
