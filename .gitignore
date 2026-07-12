@@ -23,13 +23,10 @@ env/
 .idea/
 *.swp
 *.swo
-.DS_Store
 
-# Data & Uploads
-data/uploads/
-data/evaluations/
-data/history/
+# Data (generated at runtime)
 data/evaluations.db
+data/uploads/
 
 # Logs
 logs/*.log
@@ -42,22 +39,9 @@ htmlcov/
 # Type checking
 .mypy_cache/
 
-# Distribution
-*.egg
-*.whl
-
 # OS Files
-Thumbs.db
 .DS_Store
-
-# Docs
-developer.md
-DEVELOPER.md
-exe.md
+Thumbs.db
 
 # Claude Code
-.agents/
 .claude/
-
-# Output (generated)
-output/
